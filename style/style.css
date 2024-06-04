@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+*::selection {
+  background: #9cd3aa;
+}
+
+.container {
+  margin: 0 165px;
+}
+
+/*________________________________nav-bar________________________________*/
+.navbar {
+  background-color: #e1ede6;
+  padding: 33px 0;
+  position: static;
+  transition: 0.5s;
+}
+
+/* class for Scroll (code-start) */
+.navScroll {
+  background: transparent;
+  padding: 33px 0;
+  width: 100%;
+  position: fixed;
+  transition: 0.5s;
+  color: #000000;
+}
+
+.navScroll + .section-header {
+  padding-top: 101px;
+}
+/* class for Scroll (code-end) */
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+/* class for Scroll (code-start) */
+.navbar .containerScroll {
+  border-radius: 15px;
+  background-color: #b0ccba;
+  padding: 3px 15px;
+  transition: 0.25s;
+}
+/* class for Scroll (code-end) */
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.LogoSpanCorp {
+  color: #598d66;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  user-select: none;
+  transition: 0.5s;
+}
+
+/* class for Scroll (code-start) */
+.logoScrollColor {
+  color: #598d66;
+  transition: 0.5s;
+}
+/* class for Scroll (code-end) */
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav-list li {
+  list-style: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: #2c2d35;
+}
+/*________________________________section-header________________________________*/
+
+.section-header .container {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.section-header-text {
+  margin-left: 60px;
+  margin-top: 145px;
+  max-width: 540px;
+}
+
+.section-header-title {
+  font-size: 60px;
+  line-height: 66px;
+  color: #2c2d35;
+  margin-bottom: 20px;
+}
+.section-header-title span {
+  color: #598d66;
+}
+
+.section-header-description {
+  margin-bottom: 60px;
+}
+
+.section-header-description span {
+  color: #86928b;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.section-header-button {
+  background: transparent;
+  color: #598d66;
+  border: 1px solid #598d66;
+  padding: 17px 50px;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.section-header-button:hover {
+  color: #fff;
+  background-color: #598d66;
+}
+.section-header-button:active {
+  transform: scale(0.95);
+}
+
+/*________________________________section-item________________________________*/
+.section-item .container {
+  margin-bottom: 70px;
+}
+.section-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-item-title p {
+  font-size: 40px;
+  line-height: 44px;
+  color: #2c2d35;
+}
+
+.section-item-title ul {
+  display: flex;
+  gap: 30px;
+}
+
+.section-item-title .passive {
+  list-style: none;
+  background: #d4e8d9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #2c2d35;
+  cursor: pointer;
+}
+
+.active {
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #376b44;
+  color: white;
+  cursor: pointer;
+}
+
+.section-item-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-item-grid-card {
+  background-color: #e1ede6;
+  padding: 20px 20px 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-item-grid-card .card-img {
+  margin-bottom: 20px;
+}
+
+.section-item-grid-card .card-author {
+  color: #86928b;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.section-item-grid-card .card-title {
+  color: #2c2d35;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 8px;
+}
+.section-item-grid-card .card-parameters {
+  color: #2c2d35;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.section-item-grid-card .card-price {
+  font-size: 24px;
+  color: #598d66;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.section-item-grid-card .card-button {
+  padding: 20px 60px;
+  width: 100%;
+  border: 1px solid #598d66;
+  color: #598d66;
+  background: transparent;
+  font-size: 20px;
+  line-height: 23px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.section-item-grid-card .card-button:hover {
+  color: #fff;
+  background-color: #598d66;
+}
+
+.section-item-grid-card .card-button:active {
+  transform: scale(0.95);
+}
+
+/*________________________________section-promo________________________________*/
+.section-promo {
+  background-image: url("../img/pic_background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+.section-promo-text-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-promo-text-title span {
+  max-width: 421px;
+  font-size: 40px;
+  line-height: 44px;
+  margin-left: 20px;
+}
+
+.section-promo-discription {
+  max-width: 550px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 60px;
+}
+
+.section-promo-discription .abz-1 {
+  margin-bottom: 30px;
+}
+
+.section-promo-button {
+  border: 1px solid #eedb6d;
+  padding: 20px 60px;
+  background: #eedb6d;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.section-promo-button:hover {
+  background: transparent;
+  color: #eedb6d;
+  border: 1px solid #eedb6d;
+}
+
+/*________________________________section-group________________________________*/
+
+.section-group .container {
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.section-group-img {
+  position: relative;
+  z-index: -1;
+}
+
+.section-group-img .arm-img {
+  position: absolute;
+  left: 48px;
+  top: -79px;
+}
+.section-group-text {
+  margin: 45px 0 45px 30px;
+}
+
+.section-group-title {
+  color: #2c2d35;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.section-group-discription {
+  color: #2c2d35;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.section-group-our-artists {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/*________________________________footer________________________________*/
+.footer {
+  background-color: #e1ede6;
+  padding: 23px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-footer svg {
+  margin-right: 8px;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  color: #598d66;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  user-select: none;
+  margin-bottom: 25px;
+}
+
+.number-footer {
+  font-size: 18px;
+  color: #2c2d35;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.discription-footer {
+  font-size: 16px;
+  color: #86928b;
+  line-height: 22px;
+}
+
+.footer-contact p {
+  color: #86928b;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-message {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-message ion-icon {
+  width: 22px;
+  height: 22px;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/keyframes.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="/script/app.js"></script>
+    <title>Ink. House</title>
+    <link rel="icon" type="image/x-icon" href="/img/Star 1.png" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div id="navbarContainer" class="container">
+        <div class="Logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            viewBox="0 0 35 35"
+            fill="none"
+          >
+            <path
+              d="M17.5 0L19.9652 9.10444L26.9612 2.77806L24.1128 11.77L33.4186 10.2302L26.1609 16.2547L34.8219 19.9905L25.4593 21.1349L30.7256 28.9601L22.2306 24.861L22.4303 34.2911L17.5 26.25L12.5697 34.2911L12.7694 24.861L4.27438 28.9601L9.54072 21.1349L0.178125 19.9905L8.83906 16.2547L1.58144 10.2302L10.8872 11.77L8.03879 2.77806L15.0348 9.10444L17.5 0Z"
+              fill="#598D66"
+            />
+          </svg>
+          <span class="LogoSpanCorp" id="logospan">Inc. House</span>
+        </div>
+
+        <div class="nav-list">
+          <li><a href="#item">Репродукции</a></li>
+          <li><a href="#newCollection">Новинки</a></li>
+          <li><a href="#footer">О нас</a></li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_3_994)">
+                <path
+                  d="M9.25001 21.1667C9.75627 21.1667 10.1667 20.7563 10.1667 20.25C10.1667 19.7438 9.75627 19.3334 9.25001 19.3334C8.74375 19.3334 8.33334 19.7438 8.33334 20.25C8.33334 20.7563 8.74375 21.1667 9.25001 21.1667Z"
+                  stroke="#2C2D35"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.3333 21.1667C19.8396 21.1667 20.25 20.7563 20.25 20.25C20.25 19.7438 19.8396 19.3334 19.3333 19.3334C18.8271 19.3334 18.4167 19.7438 18.4167 20.25C18.4167 20.7563 18.8271 21.1667 19.3333 21.1667Z"
+                  stroke="#2C2D35"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M1.91666 1.91663H5.58332L8.03999 14.1908C8.12381 14.6128 8.35341 14.9919 8.68857 15.2617C9.02374 15.5315 9.44313 15.6749 9.87332 15.6666H18.7833C19.2135 15.6749 19.6329 15.5315 19.9681 15.2617C20.3032 14.9919 20.5328 14.6128 20.6167 14.1908L22.0833 6.49996H6.49999"
+                  stroke="#2C2D35"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_3_994">
+                  <rect
+                    width="22"
+                    height="22"
+                    fill="white"
+                    transform="translate(1 1)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section-header">
+      <div class="container">
+        <img class="section-header-img" src="/img/Layer-heder.png" />
+
+        <div class="section-header-text">
+          <div class="section-header-title">
+            Реплики картин <br />
+            от <span>Ink. House</span>
+          </div>
+
+          <div class="section-header-description">
+            <span
+              >Высокое качество отрисовки на плотной бумаге или льняном холсте.
+              Редкие произведения, доступные цены.</span
+            >
+          </div>
+          <a style="text-decoration: none; color: #598d66" href="#item"
+            ><button class="section-header-button">Продукция</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section-item">
+      <div class="container">
+        <div id="item" class="section-item-title">
+          <p>Репродукция</p>
+          <ul class="section-item-categories">
+            <li class="active">Франция</li>
+            <li class="passive">Германия</li>
+            <li class="passive">Англия</li>
+          </ul>
+        </div>
+
+        <div id="grid-elem" class="section-item-grid">
+
+          <div id="card-1" class="section-item-grid-card">
+            <img class="card-img" src="/img/France-1.png" alt="Picture-1" />
+            <p class="card-author">Марсель Руссо</p>
+            <p class="card-title">Охота Амура</p>
+            <p class="card-parameters">Холст, масло (50х80)</p>
+            <p class="card-price">14 500 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+
+          <div class="section-item-grid-card">
+            <img class="card-img" src="/img/France-2.png" alt="Picture-1" />
+            <p class="card-author">Анри Селин</p>
+            <p class="card-title">Дама с собачкой</p>
+            <p class="card-parameters">Холст, масло (50х80)</p>
+            <p class="card-price">16 500 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+
+          <div class="section-item-grid-card">
+            <img class="card-img" src="/img/France-3.png" alt="Picture-1" />
+            <p class="card-author">Франсуа Дюпон</p>
+            <p class="card-title">Процедура</p>
+            <p class="card-parameters">Цветная литография (40х60)</p>
+            <p class="card-price">20 000 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+
+          <div class="section-item-grid-card">
+            <img class="card-img" src="/img/France-4.png" alt="Picture-1" />
+            <p class="card-author">Луи Детуш</p>
+            <p class="card-title">Роза</p>
+            <p class="card-parameters">Холст, масло (50х80)</p>
+            <p class="card-price">12 000 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+
+          <div class="section-item-grid-card">
+            <img class="card-img" src="/img/France-5.png" alt="Picture-1" />
+            <p class="card-author">Франсуа Дюпон</p>
+            <p class="card-title">Птичья трапеза</p>
+            <p class="card-parameters">Цветная литография (40х60)</p>
+            <p class="card-price">22 500 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+
+          <div class="section-item-grid-card">
+            <img class="card-img" src="/img/France-6.png" alt="Picture-1" />
+            <p class="card-author">Пьер Моранж</p>
+            <p class="card-title">Пейзаж с рыбой</p>
+            <p class="card-parameters">Цветная литография (40х60)</p>
+            <p class="card-price">20 000 руб</p>
+            <button type="button" class="card-button">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newCollection" class="section-promo">
+      <div class="section-promo-text">
+        <div class="container">
+          <div class="section-promo-text-title">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              height="79"
+              viewBox="0 0 80 79"
+              fill="none"
+            >
+              <path
+                d="M46.6407 21.9227L58.5227 11.1781L53.685 26.4498L52.9462 28.782L55.3599 28.3827L71.1646 25.7676L58.8384 35.9995L56.956 37.5621L59.2023 38.531L73.9119 44.8758L58.0107 46.8194L55.5823 47.1162L56.9482 49.1458L65.8925 62.436L51.4647 55.4741L49.2614 54.4109L49.3132 56.8568L49.6523 72.8729L41.2788 59.2159L40 57.1303L38.7212 59.2159L30.3477 72.8729L30.6868 56.8568L30.7386 54.4109L28.5353 55.4741L14.1075 62.436L23.0518 49.1458L24.4177 47.1162L21.9893 46.8194L6.08807 44.8758L20.7977 38.531L23.044 37.5621L21.1616 35.9995L8.83541 25.7676L24.6401 28.3827L27.0538 28.782L26.315 26.4498L21.4773 11.1781L33.3593 21.9227L35.1738 23.5636L35.8132 21.2022L40 5.73935L44.1868 21.2022L44.8262 23.5636L46.6407 21.9227Z"
+                stroke="#EEDB6D"
+                stroke-width="3"
+              />
+            </svg>
+            <span>Новая коллекция французских авторов</span>
+          </div>
+
+          <div class="section-promo-discription">
+            <p class="abz-1">
+              Сложно сказать, почему акционеры крупнейших компаний призывают нас
+              к новым свершениям, которые, в свою очередь, должны быть
+              заблокированы в рамках своих собственных рациональных ограничений.
+            </p>
+            <p>
+              Принимая во внимание показатели успешности, граница обучения
+              кадров предопределяет высокую востребованность направлений
+              прогрессивного развития.
+            </p>
+          </div>
+
+          <button type="button" class="section-promo-button">
+            Ознакомиться
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-group">
+      <div class="container">
+        <div class="section-group-img">
+          <img class="frame-img" src="/img/frame.png" />
+          <img class="arm-img" src="/img/arm-brushes.png" />
+        </div>
+
+        <div class="section-group-text">
+          <p class="section-group-title">Наша команда</p>
+          <p class="section-group-discription">
+            Значимость этих проблем настолько очевидна, что базовый вектор
+            развития позволяет оценить значение экспериментов, поражающих по
+            своей масштабности и грандиозности. Мы вынуждены отталкиваться от
+            того, что консультация с широким активом.
+          </p>
+          <div class="section-group-our-artists">
+            <img src="/img/teachears-1.png" />
+            <img src="/img/teachears-2.png" />
+            <img src="/img/teachears-3.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="logo-number">
+          <p class="logo-footer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              viewBox="0 0 35 35"
+              fill="none"
+            >
+              <path
+                d="M17.5 0L19.9652 9.10444L26.9612 2.77806L24.1128 11.77L33.4186 10.2302L26.1609 16.2547L34.8219 19.9905L25.4593 21.1349L30.7256 28.9601L22.2306 24.861L22.4303 34.2911L17.5 26.25L12.5697 34.2911L12.7694 24.861L4.27438 28.9601L9.54072 21.1349L0.178125 19.9905L8.83906 16.2547L1.58144 10.2302L10.8872 11.77L8.03879 2.77806L15.0348 9.10444L17.5 0Z"
+                fill="#598D66"
+              />
+            </svg>
+            Ink. House
+          </p>
+          <p class="number-footer">+7 (999) 543-54-54</p>
+          <p class="discription-footer">Мастерская</p>
+        </div>
+
+        <div class="footer-contact">
+          <div class="footer-message">
+            <ion-icon style="color: #2c2d35" name="logo-facebook"></ion-icon>
+            <ion-icon style="color: #2c2d35" name="logo-vk"></ion-icon>
+            <ion-icon style="color: #2c2d35" name="logo-youtube"></ion-icon>
+          </div>
+          <p>Ink. House ®</p>
+          <p>All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
